@@ -1,0 +1,23 @@
+[
+  {
+    "id": "luxury-district",
+    "bg": "luxury",
+    "download": "https://www.dropbox.com/s/gqzikg289sagoeg/Planet%20Minecraft%20City%20v1.zip?dl=1",
+    "icon": "v1",
+    "name": "luxury district"
+  },
+  {
+    "id": "subway-and-more",
+    "bg": "subway",
+    "download": "https://www.dropbox.com/s/bvvmqu2nletcag6/Planet%20Minecraft%20City%20v2.zip?dl=1",
+    "icon": "v2",
+    "name": "subway and more"
+  },
+  {
+    "id": "little-new-york",
+    "bg": "new_york",
+    "download": "https://www.dropbox.com/s/b3ckhg4iaqes0gr/Planet%20Minecraft%20City%20v3.zip?dl=1",
+    "icon": "v3",
+    "name": "little new york"
+  }
+]
