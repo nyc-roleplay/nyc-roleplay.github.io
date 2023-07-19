@@ -176,8 +176,8 @@ div#version:hover {
   position: absolute;
   left: 0px;
   aspect-ratio: 1;
-  width: 200px;
-  bottom: 0px;
+  width: 100px;
+  bottom: 10px;
   max-width: 25%;
 }
 
