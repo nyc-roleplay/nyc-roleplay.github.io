@@ -113,7 +113,7 @@ fetch(PRODUCTS_FILE_PATH)
       return `
       <a id="${version.id}" class="hover-img" data-bg="./background/${version.bg}.png"
       href="${version.download}"><div id="version">
-        <img class="icon" src="src/versions/${version.icon}.png" alt="Icon">
+        <img class="icon" src="src/links/${version.icon}.png" alt="Icon">
         <span class="text">${version.name}</span>
         </div>
       </a>
