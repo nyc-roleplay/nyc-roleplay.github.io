@@ -103,8 +103,29 @@ div.header {
 }
 
 @media screen and (max-width: 500px) {
+  .corner-logo {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    aspect-ratio: 1;
+    width: 30px;
+    bottom: -5px;
+    max-width: 25%;
+  }
+
+  a.switch-container {
+    display: none !important;
+  }
+
   .header {
     position: relative;
+  }
+
+  .header div {
+    margin: 0;
+    margin-right: 20px;
+    zoom: 0.5;
   }
 
   .header a {
@@ -121,6 +142,40 @@ div.header {
 
   .logo {
     font-size: 50%;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+    width: fit-content;
+  }
+
+  #version {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+    width: fit-content;
+  }
+
+  a.closebtn {
+    position: absolute !important;
+    margin: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: 30px !important;
+  }
+
+  a.closebtn-left {
+    position: absolute !important;
+    margin: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 0 !important;
+    border-bottom-right-radius: 30px !important;
   }
 }
 
@@ -386,6 +441,10 @@ div#links:hover {
   background-color: rgba(255, 255, 255, 0.1);
 }
 
+#title::after {
+  content: "NYC Roleplay Community";
+}
+
 @media screen and (max-height: 450px) {
   /* .overlay a {
     font-size: 20px;
@@ -445,9 +504,24 @@ div#links:hover {
 }
 
 @media screen and (max-width: 700px) {
+  .corner-logo {
+    padding: 0;
+    margin: 0;
+    position: absolute;
+    left: 0px;
+    aspect-ratio: 1;
+    width: 50px;
+    bottom: 5px;
+    max-width: 25%;
+  }
+
   /* #nav-menu {
     width: 100%;
   } */
+
+  #title::after {
+    content: "NYCRC";
+  }
 
   .overlay {
     background-color: rgb(31, 31, 31, 0.8);
