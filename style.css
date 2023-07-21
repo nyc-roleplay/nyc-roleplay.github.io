@@ -150,6 +150,7 @@ div.header {
     padding: 5px 10px !important;
     margin: 0 !important;
     width: fit-content;
+    zoom: 2;
   }
 
   #version {
@@ -158,6 +159,7 @@ div.header {
     padding: 5px 10px !important;
     margin: 0 !important;
     width: fit-content;
+    zoom: 2;
   }
 
   a.closebtn {
@@ -167,6 +169,8 @@ div.header {
     top: 0 !important;
     border-radius: 0 !important;
     border-bottom-left-radius: 30px !important;
+    width: 150px !important;
+    height: 100px !important;
   }
 
   a.closebtn-left {
@@ -176,6 +180,8 @@ div.header {
     top: 0 !important;
     border-radius: 0 !important;
     border-bottom-right-radius: 30px !important;
+    width: 150px !important;
+    height: 100px !important;
   }
 }
 
