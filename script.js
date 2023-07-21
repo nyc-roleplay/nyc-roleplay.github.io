@@ -120,7 +120,6 @@ fetch(PRODUCTS_FILE_PATH)
             `;
     });
 
-    // Add the HTML to the page
     const productList = document.getElementById("version-list");
     productList.innerHTML = productHTML.join("");
   })
@@ -131,7 +130,6 @@ const body = document.body;
 const imageElements = document.querySelectorAll(".hover-img");
 let currentImage = null;
 
-// Preload images
 imageElements.forEach(function (element) {
   const bg = element.getAttribute("data-bg");
   if (bg) {
