@@ -144,7 +144,7 @@ div.header {
     font-size: 50%;
   }
 
-  #links {
+  /* #links {
     display: flex;
     flex-direction: column;
     padding: 5px 10px !important;
@@ -182,7 +182,7 @@ div.header {
     border-bottom-right-radius: 30px !important;
     width: 150px !important;
     height: 100px !important;
-  }
+  } */
 }
 
 .hidden {
@@ -570,6 +570,46 @@ div#links:hover {
   div#links span {
     font-size: 150%;
     font-weight: 0;
+  }
+
+  #links {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+    width: fit-content;
+    zoom: 2;
+  }
+
+  #version {
+    display: flex;
+    flex-direction: column;
+    padding: 5px 10px !important;
+    margin: 0 !important;
+    width: fit-content;
+    zoom: 2;
+  }
+
+  a.closebtn {
+    position: absolute !important;
+    margin: 0 !important;
+    right: 0 !important;
+    top: 0 !important;
+    border-radius: 0 !important;
+    border-bottom-left-radius: 30px !important;
+    width: 150px !important;
+    height: 100px !important;
+  }
+
+  a.closebtn-left {
+    position: absolute !important;
+    margin: 0 !important;
+    left: 0 !important;
+    top: 0 !important;
+    border-radius: 0 !important;
+    border-bottom-right-radius: 30px !important;
+    width: 150px !important;
+    height: 100px !important;
   }
 }
 
