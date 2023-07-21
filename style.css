@@ -125,7 +125,7 @@ div.header {
   .header div {
     margin: 0;
     margin-right: 20px;
-    zoom: 0.5;
+    zoom: 1;
   }
 
   .header a {
